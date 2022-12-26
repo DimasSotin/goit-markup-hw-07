@@ -1,0 +1,12 @@
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.footer__logo--color {
+  color: $accent-color;
+}
+.footer__contact {
+  padding-top: 60px;
+}

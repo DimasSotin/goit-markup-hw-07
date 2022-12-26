@@ -1,0 +1,25 @@
+.auth-nav__list {
+    margin-left: 344px;
+}
+.auth-nav__link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: $secondary-text-color;
+    margin-right: 50px;
+    &:hover,
+    &:focus {
+        color: $main-hover-color;
+        fill: $main-hover-color;
+        transition: color 250ms $timing-function, fill 250ms $timing-function;
+    }
+}
+.auth-nav__icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}

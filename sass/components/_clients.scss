@@ -1,0 +1,31 @@
+.clients__list {
+    display: flex;
+}
+.clients__title {
+    font-family: "Roboto";
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: $primary-color;
+}
+
+.clients__item:not(:last-child) {
+    margin-right: 30px;
+}
+.clients__button {
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    background-color: unset;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+    transition: border-color 250ms $timing-function, fill 250ms $timing-function;
+    &:hover,
+    &:focus {
+        fill: $main-hover-color;
+        border-color: $main-hover-color;
+    }
+}

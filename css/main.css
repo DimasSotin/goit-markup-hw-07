@@ -134,6 +134,7 @@ li {
   letter-spacing: 0.02em;
   color: #757575;
   margin-right: 50px;
+  fill: #757575;
 }
 .auth-nav__link:hover, .auth-nav__link:focus {
   color: #2196f3;
